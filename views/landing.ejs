@@ -1,0 +1,27 @@
+<% include partials/header %>
+          <header class="jumbotron">    
+    <div class="container-fluid">        
+    
+<div class="statement">  
+        <h1>EarthStar</h1>
+        <h4>Start your day with something positive.</h4>
+    </div>
+</header>
+<div class="container">
+<div class="row text-center" style="display:flex; flex-wrap: wrap;">
+            <% videoData.forEach(function(video){ %>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">  
+                        <iframe width="260" height="190" src="<%= video.url %>" frameborder="0" allowfullscreen></iframe> 
+                        <a href="/video/<%= video._id %>" class="captionTitle"><%= video.name.substring(0, 15) %></a>
+                        <div class="describe">
+                        <p>
+                            <%- video.description.substring(0, 30) %>
+                        </p>
+    </div>
+                    </div>
+                </div>
+            <% }); %> 
+    </div>
+    
+<% include partials/footer %>

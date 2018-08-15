@@ -1,0 +1,20 @@
+<% include partials/header %>
+</header>
+<div class="container">
+    <div class="containerShow">
+      
+<iframe width="760" height="350" src="<%= video.url %>" frameborder="0" allowfullscreen></iframe> 
+          <div class="videoTitle">
+<%= video.name %>
+    </div>  
+        <div class="videoDescription">
+                            <%- video.description %>   
+            </div>
+<form action="/video/<%= video._id %>?_method=DELETE" method="POST">
+<a href="/video/<%= video._id %>/edit">Edit</a>
+<button class="ui red basic button">Delete</button>
+</form>
+</div>
+    </div>
+
+<% include partials/footer %>

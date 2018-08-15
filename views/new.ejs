@@ -1,0 +1,22 @@
+<% include partials/header %>
+
+        <div class="container">
+    <div class="row">
+        <form class="form-inline justify-content-center" id="admin" action="/video" method="post">
+            <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="name">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="url" placeholder="video url">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" name="description" placeholder="description">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-large" class="btn btn-lg btn-default" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<% include partials/footer %>

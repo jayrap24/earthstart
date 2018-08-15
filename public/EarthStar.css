@@ -1,0 +1,122 @@
+body{
+    background-color: #e2e2e2;
+}
+
+nav{
+    background-color: #2f2f2f;
+    height: 50px;
+}
+
+ul{
+    color: lightgray;
+}
+
+.jumbotron{
+    background-color: aliceblue;
+}
+
+.statement{
+     background-image: url("images/equality.jpg");
+    height: 15em;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.statement h1{
+    font-size: 100px;
+}
+
+
+jumbotron .statement h1{
+    text-align: center;
+}
+
+
+.bg-4 { 
+    background-color: #2f2f2f;
+    color: #ffffff;
+    padding: 3em;
+}
+
+.form-inline{
+    color: whitesmoke;
+}
+
+input placeholder{
+    color: red;
+}
+
+.form-control{
+    opacity: .3;
+    height: 80%;
+     color: whitesmoke
+}
+
+.btn{
+    visibility: hidden;
+}
+
+.container{
+    background-color: #f9fbff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.thumbnail{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.thumbnail a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+nav a img {
+    height: 50px;
+    width: 55px;
+}
+
+.form-control{
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.row{
+    margin: auto; 
+}
+
+#wrapper {
+    min-height:100%;
+    position:relative;
+}
+
+.form-group {
+    width: 100%;
+    padding-top: 20px;
+    margin: auto;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.videoTitle{
+    color: black;
+    font-size: 50px;
+    font-family:sans-serif;
+}
+
+.videoDescription{
+    color: darkgray;
+    font-size: 20px;
+    
+}
+
